@@ -1,0 +1,16 @@
+{
+  "name": "ledz/login_php",
+  "description": "a simple login system made in php",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "Ledz\\LoginPHP\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "ledz"
+    }
+  ],
+  "require": {}
+}
