@@ -15,4 +15,5 @@ return [
     'POST|/register' => [RegisterController::class, 'register'],
     'GET|/logout' => [LogoutController::class, 'processRequest'],
     'GET|/admin' => [DashboardController::class, 'processRequest'],
+    'GET|/forum' => [DashboardController::class, 'processRequest'],
 ];

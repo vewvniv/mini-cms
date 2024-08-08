@@ -59,6 +59,7 @@ label {
   background: #252525;
   display: flex;
   justify-content: flex-end;
+  gap: .625rem;
 }
 
 .admin-header>a {

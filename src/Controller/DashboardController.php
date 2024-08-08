@@ -7,11 +7,11 @@ class DashboardController extends HTMLController
 {
     public function processRequest(): void
     {
-        if (isset($_SESSION['role']) && $_SESSION['role'] === 'admin'){
+        // if (isset($_SESSION['role']) && $_SESSION['role'] === 'admin'){
             $this->render('dashboard');
-        } else {
-            header('Location: /');
-            return;
-        }
+        // } else {
+        //     header('Location: /');
+        //     return;
+        // }
     }
 }

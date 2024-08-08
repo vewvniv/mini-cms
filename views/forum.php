@@ -6,8 +6,8 @@
         <a href="/logout">Log out</a>
         <a href="/forum">Fórum</a>
     </header>
-    <h1>Homepage</h1>
-    <p>This is the homepage</p>
+    <h1>Forum</h1>
+    <p>This is the Forum</p>
 </main>
 
 <?php require_once 'footer.php' ?>
