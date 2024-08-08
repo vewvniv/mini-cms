@@ -10,3 +10,8 @@
 </head>
 
 <body>
+    <?php if(isset($_SESSION['role']) && $_SESSION['role'] === 'admin'): ?>
+        <div class="admin-header">
+            <a href="/admin">dashboard</a>
+        </div>
+    <?php endif; ?>

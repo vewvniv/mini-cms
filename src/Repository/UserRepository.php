@@ -26,6 +26,7 @@ class UserRepository implements UserPDO
 
             $user = new User(
                 $user_data['id'],
+                $user_data['role'],
                 $user_data['email'],
                 $user_data['password'],
             );
@@ -44,6 +45,7 @@ class UserRepository implements UserPDO
         if (isset($user['id'])) {
             $user_obj = new User(
                 $user['id'],
+                $user['role'],
                 $user['email'],
                 $user['password'],
             );

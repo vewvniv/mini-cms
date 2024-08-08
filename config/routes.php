@@ -1,6 +1,7 @@
 <?php
 declare(strict_types=1);
 
+use Ledz\LoginPHP\Controller\DashboardController;
 use Ledz\LoginPHP\Controller\HomepageController;
 use Ledz\LoginPHP\Controller\LoginController;
 use Ledz\LoginPHP\Controller\LogoutController;
@@ -13,4 +14,5 @@ return [
     'GET|/register' => [RegisterController::class, 'processRequest'],
     'POST|/register' => [RegisterController::class, 'register'],
     'GET|/logout' => [LogoutController::class, 'processRequest'],
+    'GET|/admin' => [DashboardController::class, 'processRequest'],
 ];

@@ -41,6 +41,7 @@ class LoginController extends HTMLController
 
         if ($correct_pwd) {
             $_SESSION['logedin'] = true;
+            $_SESSION['role'] = $user->role;
             header('Location: /');
         } else {
             header('Location: /login?login-failed');

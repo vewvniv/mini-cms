@@ -1,4 +1,4 @@
-<?php require_once 'head.php' ?>
+<?php require_once 'header.php' ?>
 
 <main>
     <header>
@@ -9,4 +9,4 @@
     <p>This is the homepage</p>
 </main>
 
-<?php require_once 'feet.php' ?>
+<?php require_once 'footer.php' ?>

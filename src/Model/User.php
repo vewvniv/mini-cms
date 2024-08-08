@@ -6,7 +6,8 @@ namespace Ledz\LoginPHP\Model;
 class User
 {
     public function __construct(
-        private readonly ?int $id = null,
+        public readonly ?int $id = null,
+        public string $role = 'user',
         public string $email,
         public string $password
     ) {

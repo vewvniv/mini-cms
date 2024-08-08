@@ -10,6 +10,7 @@ class LogoutController implements Controller
     public function processRequest(): void
     {
         unset($_SESSION['logedin']);
+        unset($_SESSION['role']);
         header('Location: /login');
     }
 }

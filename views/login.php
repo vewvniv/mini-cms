@@ -1,4 +1,4 @@
-<?php require_once 'head.php'; ?>
+<?php require_once 'header.php'; ?>
 
 <main class="container">
     <form method="POST">
@@ -17,4 +17,4 @@
     </form>
 </main>
 
-<?php require_once 'feet.php'; ?>
+<?php require_once 'footer.php'; ?>
